@@ -7,9 +7,11 @@
 #' @param size Number of rows/columns to create.
 #' @param scale Whether to apply scaling.
 #'
-#' @return RETURN_DESCRIPTION
+#' @export
+#'
+#' @return  A size x size matrix, with values equal to evaluated expression
 #' @examples
-#' # ADD_EXAMPLES_HERE
+#' generate_matrix(2 * sin(x)^2 + sin(y)^2, 400)
 generate_matrix <- function(exp, size = 80, scale = FALSE) {
     half_size <- size / 2
     exp <- rlang::enexpr(exp)
