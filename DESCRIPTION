@@ -1,15 +1,13 @@
 Package: arttools
-Title: What the Package Does (One Line, Title Case)
+Title: Generative art utility tools.
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "James",
+           family = "Monks",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+           email = "jamesmonks131@gmail.com")
+Description: Some utility functions that help with generative art. Includes force matrix generation functions.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
